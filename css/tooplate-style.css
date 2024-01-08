@@ -103,6 +103,26 @@ b, strong {
   color: #ffffff !important;
 }
 
+.custom-white-svg {
+  filter: invert(100%) sepia(90%) saturate(10%) hue-rotate(164deg) brightness(110%) contrast(111%);
+}
+
+.custom-black-svg {
+  filter: invert(10%) sepia(13%) saturate(7182%) hue-rotate(342deg) brightness(95%) contrast(107%);
+}
+
+.custom-gray-svg {
+  filter: invert(24%) sepia(18%) saturate(587%) hue-rotate(155deg) brightness(95%) contrast(89%);
+}
+
+.custom-black-light-svg {
+  filter: invert(14%) sepia(2%) saturate(6853%) hue-rotate(156deg) brightness(91%) contrast(83%);
+}
+
+.custom-blue-svg {
+  filter: invert(28%) sepia(97%) saturate(1316%) hue-rotate(182deg) brightness(96%) contrast(101%);
+}
+
 .animated {
   position: relative;
 }
